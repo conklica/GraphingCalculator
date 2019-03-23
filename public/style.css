@@ -1,0 +1,47 @@
+#graph-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+#graph {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    position: absolute;
+    z-index: 5;
+    display: inline-flex;
+    right: 0;
+    width: 30%;
+}
+
+header {
+  background-color: #000;
+  align-items: center;
+  display: flex;
+  position: relative;
+  z-index: 5;
+}
+
+header a {
+  color: #fff;
+}
+
+.site-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0 0 0 20px;
+  padding-top: 30px;
+}
+
+.site-title a:hover {
+  text-decoration: none;
+}
